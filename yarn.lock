@@ -13,6 +13,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"app2@workspace:apps/app2":
+  version: 0.0.0-use.local
+  resolution: "app2@workspace:apps/app2"
+  languageName: unknown
+  linkType: soft
+
 "demo-with-lock@workspace:.":
   version: 0.0.0-use.local
   resolution: "demo-with-lock@workspace:."

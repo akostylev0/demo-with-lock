@@ -1,0 +1,12 @@
+type: application
+language: javascript
+platform: node
+
+tasks:
+  build:
+    command: "touch output.js"
+    inputs:
+      - package.json
+      - /yarn.lock
+    outputs:
+      - output.js

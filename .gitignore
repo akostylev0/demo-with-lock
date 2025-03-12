@@ -9,3 +9,4 @@ node_modules/
 .moon/docker
 
 apps/app1/output.js
+apps/app2/output.js
