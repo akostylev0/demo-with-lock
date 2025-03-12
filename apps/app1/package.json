@@ -1,0 +1,7 @@
+{
+  "name": "app1",
+  "packageManager": "yarn@4.7.0",
+  "dependencies": {
+    "react-dom": "^18.3.1"
+  }
+}

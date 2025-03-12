@@ -1,0 +1,19 @@
+$schema: 'https://moonrepo.dev/schemas/toolchain.json'
+
+node:
+  version: '22.13.1'
+  packageManager: 'yarn'
+  yarn:
+    version: '4.6.0'
+    installArgs:
+      - --immutable
+  addEnginesConstraint: true
+  dedupeOnLockfileChange: true
+  syncPackageManagerField: true
+
+rust:
+  version: '1.85.0'
+  syncToolchainConfig: true
+  components:
+    - rustfmt
+    - clippy
