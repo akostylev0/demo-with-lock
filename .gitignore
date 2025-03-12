@@ -2,3 +2,10 @@
 diff.txt
 .yarn
 .pnp.cjs
+node_modules/
+
+# moon
+.moon/cache
+.moon/docker
+
+apps/app1/output.js

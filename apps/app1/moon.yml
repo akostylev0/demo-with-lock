@@ -1,0 +1,11 @@
+type: application
+language: javascript
+platform: node
+
+tasks:
+  build:
+    command: "touch output.js"
+    inputs:
+      - package.json
+    outputs:
+      - output.js
