@@ -21,3 +21,5 @@ jobs:
         with:
           auto-install: true
       - run: moon ci
+        env:
+          YARN_ENABLE_HARDENED_MODE: 0
